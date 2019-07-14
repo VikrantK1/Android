@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+android:id="@+id/item1"
+    android:title="item1"
+    />
+    <item
+        android:id="@+id/item2"
+        android:title="item1"
+        />
+    <item
+        android:id="@+id/item3"
+        android:title="item1"
+        app:showAsAction="withText"
+        />
+    <item
+        android:icon="@android:drawable/ic_menu_set_as"
+        android:id="@+id/item4"
+        app:showAsAction="always"
+        android:title="item4" />
+    <item
+        android:icon="@android:drawable/ic_search_category_default"
+        android:id="@+id/item5"
+        app:showAsAction="ifRoom"
+        android:title="item4" />
+    <item
+        android:icon="@android:drawable/title_bar_tall"
+        android:id="@+id/item6"
+        app:showAsAction="ifRoom"
+        android:title="item5" />
+
+</menu>
